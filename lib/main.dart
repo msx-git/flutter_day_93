@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_day_93/screens/main_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'ui/screen/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(375, 812),
       builder: (context, _) {
-        return const MaterialApp(
+        return  MaterialApp(
           debugShowCheckedModeBanner: false,
           home: MainScreen(),
         );
