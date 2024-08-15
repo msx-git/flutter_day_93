@@ -106,9 +106,6 @@ class MainScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(16.r),
                     child: Image.network(
                         "https://randomuser.me/api/portraits/men/${Random().nextInt(90) + 1}.jpg")),
-                // leading: CircleAvatar(
-                //   backgroundImage: NetworkImage("https://randomuser.me/api/portraits/men/${Random().nextInt(90) + 1}.jpg"),
-                // ),
                 trailing: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
